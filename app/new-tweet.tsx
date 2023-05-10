@@ -23,7 +23,7 @@ export default function NewTweet() {
         <SafeAreaView style={{flex: 1, backgroundColor: 'white'}}>
             <View style={styles.container}>
                 <View style={styles.buttonContainer}>
-                    <Link href='../' style={{fontSize: 18}}>cancel</Link>
+                    <Link href='../' style={{fontSize: 18,}}>cancel</Link>
                     <Pressable onPress={onTweetPress} style={styles.button}>
                         <Text style={styles.buttonText}>tweet</Text>
                     </Pressable>
